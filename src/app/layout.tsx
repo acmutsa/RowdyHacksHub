@@ -1,21 +1,19 @@
-import { Cal_Sans } from "next/font/google";
+import { calSans, poppins } from "@/src/lib/fonts";
 import "./globals.css";
+import NavBar from "@/src/landing/NavBar";
 
-const calSans = Cal_Sans({
-  variable: "--font-cal-sans",
-  subsets: ["latin"],
-  weight: "400",
-  adjustFontFallback: false,
-});
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
-      <body className={`${calSans.className}`} >
+
+      <body className={`${poppins.className}`} >
+        <NavBar />
         {children}
       </body>
     </html>
