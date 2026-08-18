@@ -3,7 +3,7 @@ import { calSans, poppins } from "@/src/lib/fonts";
 export default function RowdyHacks() {
   return (
     <div className="w-full flex flex-col" id="home">
-      <h2 className={`${calSans.className} text-4xl lg:text-5xl text-center font-extrabold pb-[2cqw]`}>
+      <h2 className={`${calSans.className} text-4xl lg:text-5xl text-center font-extrabold pb-[5cqw] sm:pb-[2cqw]`}>
         OUR HACKATHON
       </h2>
       <p className={`${poppins.className} text-xl text-justify font-regular px-[10cqw]`}>

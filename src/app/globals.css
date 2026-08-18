@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #000000;
+  --mute-foreground: #212121;
   --border: #000000;
   --accent: #F45324;
 }
@@ -12,9 +13,31 @@
   --color-foreground: var(--foreground);
   --color-border: var(--border);
   --color-accent: var(--accent);
+  --color-mute-foreground: var(--mute-foreground);
+  --animate-marquee: marquee var(--duration, 40s) linear infinite;
+  --animate-marquee-reverse: marquee-reverse var(--duration, 40s) linear infinite;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap, 2rem)));
+  }
+}
+
+@keyframes marquee-reverse {
+  from {
+    transform: translateX(calc(-100% - var(--gap, 2rem)));
+  }
+  to {
+    transform: translateX(0);
+  }
 }

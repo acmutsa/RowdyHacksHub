@@ -5,13 +5,12 @@ import Footer from "@/src/landing/Footer"
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-background">
-      <main className="flex w-full flex-1 flex-col items-center gap-[3cqw]">
+      <main className="flex w-full flex-1 flex-col items-center gap-[5cqw] sm:gap-[3cqw]">
         <Hero />
         <RowdyHacks />
         <Iterations />
         <Footer />
       </main>
-
     </div>
   );
 }
