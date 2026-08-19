@@ -22,7 +22,7 @@ export default function Sponsors({
         <p className={`${poppins.className} text-xl text-justify font-regular px-[10cqw] pb-[5cqw] sm:pb-[2cqw]`}>
           We are still looking for sponsors for this event! If you are interested, check out {" "}
           <a
-            href={`https://${year}.rowdyhacks.org`}
+            href={`https://${iteration.toLowerCase()}.rowdyhacks.org`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent underline-offset-2 hover:underline"

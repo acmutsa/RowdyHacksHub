@@ -22,7 +22,7 @@ export default function RowdyHacksInfo({
 
       <div className={`flex flex-wrap gap-4 ${poppins.className} text-xl text-justify font-regular px-[10cqw]`}>
 
-        <a href={`https://${sponsor.year}.rowdyhacks.org`} className="rounded-[2px] border-2 border-accent bg-accent px-6 py-3 font-semibold text-background transition-transform duration-150 active:scale-95">
+        <a href={`https://${sponsor.iteration.toLowerCase()}.rowdyhacks.org`} className="rounded-[2px] border-2 border-accent bg-accent px-6 py-3 font-semibold text-background transition-transform duration-150 active:scale-95">
           Visit website
         </a>
 
