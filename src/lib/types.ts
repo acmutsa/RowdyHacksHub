@@ -15,6 +15,12 @@ export type SponsorsScrollerProps = {
   iteration: string;
 };
 
+export type SponsorsProps = {
+  sponsors?: string[];
+  iteration: string;
+  year: number;
+};
+
 export interface HackathonCardProps {
   isCentered: boolean;
   position: number;

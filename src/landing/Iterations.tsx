@@ -89,7 +89,7 @@ export default function Iterations() {
         </div>
 
         <RowdyHacksInfo sponsor={highlighted} />
-        <Sponsors sponsors={highlighted.sponsors} iteration={highlighted.iteration} />
+        <Sponsors sponsors={highlighted.sponsors} iteration={highlighted.iteration} year={highlighted.year} />
 
       </div>
     </div>
