@@ -12,6 +12,7 @@ export type HackathonCard = {
 export type SponsorsScrollerProps = {
   reverse?: boolean;
   sponsors: string[];
+  iteration: string;
 };
 
 export interface HackathonCardProps {

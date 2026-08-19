@@ -1,6 +1,9 @@
 "use client"
+import { useEffect, useState } from 'react';
 import { cn } from '@/src/lib/utils';
 import type { HackathonCardProps } from '@/src/lib/types';
+
+const FALLBACK_LOGO = "/img/rh.svg";
 
 export default function HackathonCard({
   isCentered,
@@ -9,6 +12,10 @@ export default function HackathonCard({
   onSelect,
   cardSize
 }: HackathonCardProps) {
+
+  const logoSrc = `/logos/RH${hackathon.iteration}.${hackathon.imgFormat}`;
+  const [src, setSrc] = useState(FALLBACK_LOGO);
+  useEffect(() => { setSrc(logoSrc) }, [logoSrc]);
 
   return (
     <div
@@ -34,8 +41,9 @@ export default function HackathonCard({
       <span className={cn("absolute right-[-2px] top-12 h-0.5 w-[70.71px] origin-top-right rotate-45", isCentered ? "bg-accent" : "bg-border")} />
 
       <img
-        src={`/logos/RH${hackathon.iteration}.${hackathon.imgFormat}`}
+        src={src}
         alt={hackathon.name}
+        onError={() => setSrc(FALLBACK_LOGO)}
         className="mb-4 h-14 w-14 bg-muted object-cover object-top shadow-[3px_3px_0px_hsl(var(--background))]"
       />
 

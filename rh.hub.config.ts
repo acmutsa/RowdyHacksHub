@@ -18,7 +18,6 @@ const config = {
     description: "Small event description. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     imgFormat: "svg",
     photosLink: "#",
-    sponsors: ["name1", "name2"]
   },
   {
     number: 1,
@@ -28,7 +27,6 @@ const config = {
     description: "Small event description. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     imgFormat: "svg",
     photosLink: "#",
-    sponsors: ["name1", "name2"]
   },
   {
     number: 2,
@@ -38,7 +36,6 @@ const config = {
     description: "Small event description. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     imgFormat: "svg",
     photosLink: "#",
-    sponsors: ["name1", "name2"]
   },
   {
     number: 3,
@@ -48,7 +45,6 @@ const config = {
     description: "Small event description. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     imgFormat: "svg",
     photosLink: "#",
-    sponsors: ["name1", "name2"]
   },
   {
     number: 4,
@@ -58,7 +54,37 @@ const config = {
     description: "Small event description. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     imgFormat: "png",
     photosLink: "#",
-    sponsors: ["name1", "name2"]
+    sponsors: [
+      "afcs", 
+      "att",
+      "civ-tech-sa",
+      "cnf", 
+      "frost-bank", 
+      "google-geo",
+      "google", 
+      "heb", 
+      "i-heart-media",
+      "man-tech",
+      "mlh",
+      "nerd-focus",
+      "nsa",
+      "paycom", 
+      "popcorn-piccadilly",
+      "posh",
+      "sticker",
+      "tech-data",
+      "tiffs-treat",
+      "twilio",
+      "usaa",
+      "utsa-cos", 
+      "utsa-cs", 
+      "utsa-iscs",
+      "utsa-nscc",
+      "utsa-research",
+      "utsa-sds",
+      "valero",
+      "web-head"
+    ]
   },
   {
     number: 5,
@@ -68,7 +94,24 @@ const config = {
     description: "Small event description. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     imgFormat: "png",
     photosLink: "#",
-    sponsors: ["name1", "name2"]
+    sponsors: [
+      "accenture",
+      "civ-tech-sa",
+      "frost-bank",
+      "hcl",
+      "heb",
+      "mlh",
+      "nsa",
+      "pwc",
+      "tech-data",
+      "the-codex",
+      "utsa-career-center",
+      "utsa-cos",
+      "utsa-cs",
+      "utsa-engineering",
+      "utsa-iscs",
+      "utsa-sds",
+    ]
   },
   {
     number: 6,
@@ -78,7 +121,26 @@ const config = {
     description: "Small event description. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     imgFormat: "png",
     photosLink: "#",
-    sponsors: ["name1", "name2"]
+    sponsors: [
+      "acm",
+      "ara", 
+      "assembly-ai",  
+      "frost-bank", 
+      "google", 
+      "heb", 
+      "interview-cake",
+      "klesse", 
+      "makerspace", 
+      "mitre",
+      "mlh",
+      "paycom", 
+      "sticker", 
+      "td-synnex", 
+      "utsa-cos", 
+      "utsa-cos-scc", 
+      "valero",
+      "wolfram"
+    ]
   },
   {
     number: 7,
@@ -88,7 +150,6 @@ const config = {
     description: "Small event description. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     imgFormat: "svg",
     photosLink: "#",
-    sponsors: ["name1", "name2"]
   },
   {
     number: 8,
@@ -98,7 +159,33 @@ const config = {
     description: "Small event description. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     imgFormat: "png",
     photosLink: "#",
-    sponsors: ["name1", "name2"]
+    sponsors: [
+      "accenture", 
+      "acm",
+      "afcs", 
+      "artea", 
+      "bunz", 
+      "codepath", 
+      "cymanii", 
+      "dell", 
+      "frost-bank", 
+      "google", 
+      "heb", 
+      "klesse", 
+      "marathon-oil", 
+      "paycom", 
+      "pho", 
+      "rowdy-tech", 
+      "six-flags", 
+      "students-and-startups", 
+      "swivel", 
+      "td-synnex", 
+      "utsa-cos", 
+      "utsa-cs", 
+      "utsa-data-science",
+      "valero",
+      "wolfram"
+    ]
   },
   {
     number: 9,
@@ -108,7 +195,18 @@ const config = {
     description: "Small event description. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     imgFormat: "png",
     photosLink: "#",
-    sponsors: ["name1", "name2"]
+    sponsors: [
+      "cymanii", 
+      "dell", 
+      "groq", 
+      "heb", 
+      "klesse", 
+      "matrix", 
+      "schroeder", 
+      "swivel", 
+      "utsa-cs", 
+      "utsa-data-science"
+    ]
   },
   {
     number: 10,
@@ -118,7 +216,16 @@ const config = {
     description: "Small event description. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     imgFormat: "png",
     photosLink: "#",
-    sponsors: ["name1", "name2"]
+    sponsors: [
+      "caicc", 
+      "dell", 
+      "heb", 
+      "schroeder", 
+      "swivel", 
+      "union-pacific", 
+      "utsa-cs", 
+      "yahoo"
+    ]
   },
   {
     number: 11,
@@ -128,7 +235,7 @@ const config = {
     description: "Small event description. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     imgFormat: "png",
     photosLink: "#",
-    sponsors: ["name1", "name2"]
+    sponsors: []
   }
 ]
 
