@@ -7,11 +7,11 @@ export default function RowdyHacks() {
         OUR HACKATHON
       </h2>
       <p className={`${poppins.className} text-xl text-justify font-regular px-[10cqw]`}>
-        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+        RowdyHacks is UTSA's annual hackathon, hosted by the Association for Computing Machinery (ACM) at UTSA.
+        It's a weekend-long event where students, tech enthusiasts, and creative minds from all backgrounds come together to collaborate, innovate, and build real-world projects in 24 hours.
         <br />
         <br />
-        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-      </p>
+        Whether you’ve a seasoned hackathon vet or you’re just getting started, you’ll feel right at home at RowdyHacks. Come hang out, try something new, team up with others, and bring your ideas to life. There’s plenty of room to explore, learn as you go, and get help when you need it. You don’t need to be an expert, just curious and ready to build. By the end, you’ll have something real to show for it, and a few new friends along the way      </p>
     </div>
   );
 }
