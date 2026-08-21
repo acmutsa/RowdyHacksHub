@@ -44,7 +44,7 @@ export default function HackathonCard({
         src={src}
         alt={hackathon.name}
         onError={() => setSrc(FALLBACK_LOGO)}
-        className="mb-4 h-14 w-14 bg-muted object-cover object-top shadow-[3px_3px_0px_hsl(var(--background))]"
+        className="mb-4 h-16 w-16 bg-muted object-contain object-top shadow-[3px_3px_0px_hsl(var(--background))]"
       />
 
       <h3 className={"text-base sm:text-xl font-medium"}>

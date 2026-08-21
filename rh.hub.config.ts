@@ -16,8 +16,14 @@ const config = {
     year: 2016,
     iteration: "I",
     description: "The one that started it all: a scrappy weekend of caffeine, code, and questionable robot creations. It planted the seed for what would become a UTSA tradition.",
-    imgFormat: "svg",
+    imgFormat: "png",
     photosLink: "#",
+    sponsors: [
+      "amazon-alexa",
+      "code-jam",
+      "promoter",
+      "usaa"
+    ]
   },
   {
     number: 1,
@@ -25,8 +31,14 @@ const config = {
     year: 2017,
     iteration: "II",
     description: "Round two proved RowdyHacks wasn't a fluke. More hackers showed up, chasing bigger ideas and only slightly better sleep schedules than year one.",
-    imgFormat: "svg",
+    imgFormat: "png",
     photosLink: "#",
+    sponsors: [
+      "amazon-alexa",
+      "code-jam",
+      "promoter",
+      "utsa-cs"
+    ]
   },
   {
     number: 2,
@@ -34,8 +46,18 @@ const config = {
     year: 2018,
     iteration: "III",
     description: "Three's a trend. More hardware, more caffeine, and a whole lot more 3 a.m. debugging sessions fueled by pure stubbornness.",
-    imgFormat: "svg",
+    imgFormat: "png",
     photosLink: "#",
+    sponsors: [
+      "acm",
+      "afcs", 
+      "cox-automotive",
+      "geekdom",
+      "infosys",
+      "medcom",
+      "motiva",
+      "usaa"
+    ]
   },
   {
     number: 3,
@@ -43,8 +65,25 @@ const config = {
     year: 2019,
     iteration: "IV",
     description: "RowdyHacks IV rolled in with roman numeral swagger, proving that great ideas (and great chaos) only get better with practice.",
-    imgFormat: "svg",
+    imgFormat: "png",
     photosLink: "#",
+    sponsors: [
+      "accenture", 
+      "acm-w",
+      "acm",
+      "afcs", 
+      "amazon-alexa",
+      "chevron", 
+      "code-jam",
+      "cox-automotive",
+      "geekdom",
+      "infosys",
+      "medcom",
+      "motiva",
+      "promoter",
+      "usaa",
+      "utsa-cs"
+    ]
   },
   {
     number: 4,
