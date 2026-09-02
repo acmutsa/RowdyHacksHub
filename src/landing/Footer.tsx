@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <p className="hidden sm:block text-sm text-mute-foreground">
-          © 2077 ACM UTSA ROWDY HACKS. ALL RIGHTS RESERVED.
+          © 2027 ACM UTSA ROWDY HACKS. ALL RIGHTS RESERVED.
         </p>
 
       </div >
