@@ -6,6 +6,8 @@
   --mute-foreground: #212121;
   --border: #000000;
   --accent: #F45324;
+  --background-dark: #000000;
+  --foreground-light: #ffffff;
 }
 
 @theme inline {
@@ -14,6 +16,8 @@
   --color-border: var(--border);
   --color-accent: var(--accent);
   --color-mute-foreground: var(--mute-foreground);
+  --color-background-dark: var(--background-dark);
+  --color-foreground-light: var(--foreground-light);
   --animate-marquee: marquee var(--duration, 40s) linear infinite;
   --animate-marquee-reverse: marquee-reverse var(--duration, 40s) linear infinite;
 }

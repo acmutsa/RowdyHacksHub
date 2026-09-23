@@ -2,6 +2,7 @@ import { SocialIcon } from 'react-social-icons'
 import { calSans } from '../lib/fonts'
 import c from '@/rh.hub.config'
 import { SocialLink } from '../lib/types';
+import { GooeyMenu } from '../components/GooeyMenu';
 
 const socials: SocialLink[] = c.socials;
 
@@ -34,6 +35,10 @@ export default function Footer() {
                 <SocialIcon network={social.name} url={social.link} bgColor="black" fgColor="white" style={{ height: '40px', width: '40px' }} />
               </div>
             ))}
+          </div>
+
+          <div className="flex sm:hidden items-center justify-center pl-[3cqw]">
+            <GooeyMenu socials={socials} />
           </div>
 
         </div>

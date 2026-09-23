@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import { cn } from '@/src/lib/utils';
 import type { HackathonCardProps } from '@/src/lib/types';
+import Link from "next/link";
 
 const FALLBACK_LOGO = "/img/rh.svg";
 
@@ -38,19 +39,20 @@ export default function HackathonCard({
         `
       }}
     >
-      <span className={cn("absolute right-[-2px] top-12 h-0.5 w-[70.71px] origin-top-right rotate-45", isCentered ? "bg-accent" : "bg-border")} />
+      <Link href={`https://${hackathon.iteration.toLowerCase()}.rowdyhacks.org`}>
+        <span className={cn("absolute right-[-2px] top-12 h-0.5 w-[70.71px] origin-top-right rotate-45", isCentered ? "bg-accent" : "bg-border")} />
 
-      <img
-        src={src}
-        alt={hackathon.name}
-        onError={() => setSrc(FALLBACK_LOGO)}
-        className="mb-4 h-16 w-16 bg-muted object-contain object-top shadow-[3px_3px_0px_hsl(var(--background))]"
-      />
+        <img
+          src={src}
+          alt={hackathon.name}
+          onError={() => setSrc(FALLBACK_LOGO)}
+          className="mb-4 h-16 w-16 bg-muted object-contain object-top shadow-[3px_3px_0px_hsl(var(--background))]"
+        />
 
-      <h3 className={"text-base sm:text-xl font-medium"}>
-        {hackathon.name}
-      </h3>
-
+        <h3 className={"text-base sm:text-xl font-medium"}>
+          {hackathon.name}
+        </h3>
+      </Link>
     </div>
   );
 }
