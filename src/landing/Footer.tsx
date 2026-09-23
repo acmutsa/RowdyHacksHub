@@ -37,7 +37,7 @@ export default function Footer() {
             ))}
           </div>
 
-          <div className="flex sm:hidden items-center justify-center pl-[3cqw]">
+          <div className="flex sm:hidden items-center justify-center ">
             <GooeyMenu socials={socials} />
           </div>
 
