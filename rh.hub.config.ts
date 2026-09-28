@@ -274,7 +274,26 @@ const config = {
     description: "RowdyHacks XII is gearing up to be the biggest one yet, so grab your laptop and a wildly irresponsible amount of energy drinks.",
     imgFormat: "png",
     photosLink: "#",
-    sponsors: []
+    sponsors: [
+      "434-media",
+      "ana-vation",
+      "ara",
+      "caic", 
+      "cs-department",
+      "cyber-jedis",
+      "HEB", 
+      "investment-society",
+      "isaca",
+      "klesse", 
+      "lean-techniques",
+      "pure-buttons",
+      "serp-api",
+      "swivel",
+      "usaa",
+      "webhead",
+      "xpel",
+      "yahoo"
+    ]
   }
 ]
 
